@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProcessManager.Core\ProcessManager.Core.csproj" />
+    <ProjectReference Include="..\core\ProcessManager.Core.csproj" />
   </ItemGroup>
 
 </Project>

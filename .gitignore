@@ -8,3 +8,7 @@
 /src/ProcessManager.Core/bin/Debug/netstandard2.0
 /src/ProcessManager.Core/obj
 *.user
+/src/core/bin/Debug/netstandard2.0
+/src/core/obj
+/src/processHost/bin/Debug/netcoreapp2.2
+/src/processHost/obj
