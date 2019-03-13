@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using System;
 
-namespace ProgramManager
+namespace ProcessManager.ProgramManager
 {
     class Program
     {

@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace ProgramManager
+namespace ProcessManager.ProgramManager
 {
     public class Startup
     {

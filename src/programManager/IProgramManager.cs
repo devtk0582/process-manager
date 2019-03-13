@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProgramManager
+namespace ProcessManager.ProgramManager
 {
-    public interface IProcessManager
+    public interface IProgramManager
     {
         void Configure();
         void Start();
