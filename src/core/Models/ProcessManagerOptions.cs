@@ -12,5 +12,7 @@ namespace ProcessManager.Core.Models
         public int HealthCheckInterval { get; set; }
         public int MaxProcessInitMins { get; set; }
         public int MaxResponseTimeInSeconds { get; set; }
+
+        public IEnumerable<ProcessHostInfo> Hosts { get; set; } = new List<ProcessHostInfo>();
     }
 }
