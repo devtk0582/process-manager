@@ -12,3 +12,5 @@
 /src/core/obj
 /src/processHost/bin/Debug/netcoreapp2.2
 /src/processHost/obj
+/src/healthCheckMiddleware/bin/Debug/netcoreapp2.2
+/src/healthCheckMiddleware/obj

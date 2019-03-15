@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManager.ProcessHost"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessManager.Core", "core\ProcessManager.Core.csproj", "{69D77751-6FFA-4663-A743-DE1C6092B08E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middleware", "Middleware", "{D9EDE17F-B1EE-426C-BEEF-02E813DEA9EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManager.HealthCheckMiddleware", "healthCheckMiddleware\ProcessManager.HealthCheckMiddleware.csproj", "{9E4E3B61-D931-41D0-A552-B9882A2EB90B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{69D77751-6FFA-4663-A743-DE1C6092B08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69D77751-6FFA-4663-A743-DE1C6092B08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69D77751-6FFA-4663-A743-DE1C6092B08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4E3B61-D931-41D0-A552-B9882A2EB90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4E3B61-D931-41D0-A552-B9882A2EB90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4E3B61-D931-41D0-A552-B9882A2EB90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4E3B61-D931-41D0-A552-B9882A2EB90B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E4E3B61-D931-41D0-A552-B9882A2EB90B} = {D9EDE17F-B1EE-426C-BEEF-02E813DEA9EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32B2A1DE-E463-45E2-B6AC-5E0B9AB47F47}
