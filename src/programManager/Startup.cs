@@ -34,8 +34,7 @@ namespace ProcessManager.ProgramManager
             var builder = new ConfigurationBuilder()
                 .AddCommandLine(args)
                 .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-                .AddJsonFile($"appsettings.json")
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json");
+                .AddJsonFile($"appsettings.json");
 
             Configuration = builder.Build();
         }
