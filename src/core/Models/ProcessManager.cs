@@ -334,7 +334,9 @@ namespace ProcessManager.Core.Models
 
         private string GenerateUUID()
         {
-            return (Assembly.GetExecutingAssembly().GetCustomAttribute(typeof(GuidAttribute)) as GuidAttribute)?.Value;
+            //TODO: generate from assmebly
+            return "81d9a0c0-832f-4ac9-beff-60602810d452";
+            //return (Assembly.GetExecutingAssembly().GetCustomAttribute(typeof(GuidAttribute)) as GuidAttribute)?.Value;
         }
 
         public bool IsHealthcheckAuthorized(HttpContext context)
